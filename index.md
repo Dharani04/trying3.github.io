@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     
 <script>
-
+function loadDoc() {
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function () {
                 if (xmlhttp.readyState == XMLHttpRequest.DONE) {
